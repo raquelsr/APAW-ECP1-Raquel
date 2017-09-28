@@ -55,6 +55,13 @@ public class Customer {
     public void setOrders(List<Order> orders) {
         this.orders = orders;
     }
+    
+    public boolean orderContain (Order order) {
+        if (order == null) {
+            return false;
+        }
+        return this.orders.contains(order);
+    }
 
     @Override
     public String toString() {
