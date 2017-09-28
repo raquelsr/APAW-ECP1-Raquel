@@ -1,5 +1,5 @@
 #echo off
-export workspace=/Users/Raquel/Documents/Workspace/Eclipse/Raquel.Serrano.SVC.miw.upm.es
+export workspace=/Users/Raquel/Documents/Workspace/Eclipse/APAW-ECP1-Raquel
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
 export M2_HOME=/Users/Raquel/Desktop/Master/Software/apache-maven-3.5.0
 
