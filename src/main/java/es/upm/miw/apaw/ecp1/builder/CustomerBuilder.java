@@ -37,7 +37,7 @@ public class CustomerBuilder {
         assert order != null;
         List<Order> orders = this.customer.getOrders();
         if (orders == null) {
-            orders = new ArrayList<Order>();
+            orders = new ArrayList<>();
         }
         orders.add(order);
         this.customer.setOrders(orders);
