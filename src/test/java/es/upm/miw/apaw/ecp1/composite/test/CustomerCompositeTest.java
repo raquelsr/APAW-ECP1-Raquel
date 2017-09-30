@@ -8,10 +8,10 @@ import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
 import es.upm.miw.apaw.ecp1.builder.CustomerBuilder;
+import es.upm.miw.apaw.ecp1.composite.CustomerComponent;
+import es.upm.miw.apaw.ecp1.composite.CustomerComposite;
+import es.upm.miw.apaw.ecp1.composite.CustomerLeaf;
 import es.upm.miw.apaw.ecp1.entities.Customer;
-import es.upm.miw.ecp1.composite.CustomerComponent;
-import es.upm.miw.ecp1.composite.CustomerComposite;
-import es.upm.miw.ecp1.composite.CustomerLeaf;
 
 public class CustomerCompositeTest {
 

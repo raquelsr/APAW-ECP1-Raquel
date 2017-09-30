@@ -1,4 +1,4 @@
-package es.upm.miw.ecp1.composite;
+package es.upm.miw.apaw.ecp1.composite;
 
 import es.upm.miw.apaw.ecp1.entities.Customer;
 
