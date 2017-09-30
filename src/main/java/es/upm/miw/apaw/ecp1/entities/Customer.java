@@ -6,16 +6,16 @@ import java.util.List;
 public class Customer {
 
     private int id;
-    
+
     private String name;
-    
+
     private String address;
-    
+
     private Calendar date;
-    
+
     private List<Order> orders;
-    
-    public Customer (int id, String name) {
+
+    public Customer(int id, String name) {
         this.id = id;
         this.name = name;
     }
@@ -23,7 +23,7 @@ public class Customer {
     public int getId() {
         return id;
     }
-    
+
     public String getName() {
         return name;
     }
@@ -55,8 +55,8 @@ public class Customer {
     public void setOrders(List<Order> orders) {
         this.orders = orders;
     }
-    
-    public boolean orderContain (Order order) {
+
+    public boolean orderContains(Order order) {
         if (order == null) {
             return false;
         }
@@ -67,8 +67,5 @@ public class Customer {
     public String toString() {
         return "Customer [id=" + id + ", name=" + name + ", address=" + address + ", date=" + date + ", orders=" + orders + "]";
     }
-    
-    
-    
-    
+
 }
