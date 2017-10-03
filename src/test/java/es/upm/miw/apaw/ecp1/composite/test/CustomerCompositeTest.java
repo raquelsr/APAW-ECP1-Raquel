@@ -85,4 +85,9 @@ public class CustomerCompositeTest {
         exception.expect(UnsupportedOperationException.class);
         this.leaf.add(new CustomerLeaf(customer2));
     }
+    
+    @Test
+    public void testRemove() {
+        this.c1.remove(c11);
+    }
 }
