@@ -18,6 +18,7 @@ public class Customer {
     public Customer(int id, String name) {
         this.id = id;
         this.name = name;
+        this.date = Calendar.getInstance();
     }
 
     public int getId() {
@@ -56,7 +57,7 @@ public class Customer {
         this.orders = orders;
     }
 
-    public boolean orderContains(Order order) {
+    public boolean containsOrder(Order order) {
         if (order == null) {
             return false;
         }

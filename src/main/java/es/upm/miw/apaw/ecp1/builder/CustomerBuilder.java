@@ -29,10 +29,6 @@ public class CustomerBuilder {
         return this;
     }
     
-   /* public Order orderBuilder (int id, Calendar date, BigDecimal amount) {
-        return new Order(id, date, amount);
-    }*/
-    
     public CustomerBuilder order (Order order) {
         assert order != null;
         List<Order> orders = this.customer.getOrders();
