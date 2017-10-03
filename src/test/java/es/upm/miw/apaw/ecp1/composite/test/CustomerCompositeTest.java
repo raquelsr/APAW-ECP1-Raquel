@@ -79,4 +79,15 @@ public class CustomerCompositeTest {
         assertEquals("c1", this.c1.view());
         assertEquals("c12", this.c12.view());
     }
+    
+    @Test
+    public void testAddLeaf() {
+        exception.expect(UnsupportedOperationException.class);
+        this.leaf.add(new CustomerLeaf(customer2));
+    }
+    
+    @Test
+    public void testRemove() {
+        this.c1.remove(c11);
+    }
 }

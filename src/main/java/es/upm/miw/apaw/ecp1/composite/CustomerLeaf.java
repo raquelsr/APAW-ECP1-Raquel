@@ -12,7 +12,7 @@ public class CustomerLeaf extends CustomerComponent {
 
     @Override
     public void add(CustomerComponent customerComponent) {
-        // Do nothing because is leaf
+        throw new UnsupportedOperationException("Operación no soportada");
     }
 
     @Override

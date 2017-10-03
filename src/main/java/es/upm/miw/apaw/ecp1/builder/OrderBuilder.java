@@ -10,8 +10,12 @@ public class OrderBuilder {
 
     private Order order;
     
-    public OrderBuilder (int id, Calendar date, BigDecimal amount) {
-        this.order = new Order (id, date, amount);
+    public OrderBuilder (int id) {
+        this.order = new Order (id);
+    }
+    
+    public OrderBuilder (int id, BigDecimal amount) {
+        this.order = new Order (id, amount);
     }
     
     public OrderBuilder date (Calendar date) {

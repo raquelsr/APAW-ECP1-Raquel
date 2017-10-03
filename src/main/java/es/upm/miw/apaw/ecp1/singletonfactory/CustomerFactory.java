@@ -9,7 +9,7 @@ public class CustomerFactory {
 
     private static final CustomerFactory customerFactory = new CustomerFactory();
 
-    Map<Integer, Customer> customers;
+    private Map<Integer, Customer> customers;
 
     private CustomerFactory() {
         this.customers = new HashMap<>();
