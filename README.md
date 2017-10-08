@@ -6,3 +6,6 @@
 ### Descripción
 Desarrollo de la práctica ECP1. Patrones de Diseño.
 
+![](https://github.com/raquelsr/APAW-ECP1-Raquel/blob/develop/docs/ECP-customer-order.png)
+
+
