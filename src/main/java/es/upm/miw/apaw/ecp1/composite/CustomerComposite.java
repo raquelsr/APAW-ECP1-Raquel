@@ -3,7 +3,7 @@ package es.upm.miw.apaw.ecp1.composite;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CustomerComposite extends CustomerComponent {
+public class CustomerComposite implements CustomerComponent {
 
     String name;
 

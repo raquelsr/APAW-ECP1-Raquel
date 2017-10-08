@@ -2,7 +2,7 @@ package es.upm.miw.apaw.ecp1.composite;
 
 import es.upm.miw.apaw.ecp1.entities.Customer;
 
-public class CustomerLeaf extends CustomerComponent {
+public class CustomerLeaf implements CustomerComponent {
 
     private Customer customer;
 

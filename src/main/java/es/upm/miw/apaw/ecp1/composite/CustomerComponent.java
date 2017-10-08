@@ -1,10 +1,10 @@
 package es.upm.miw.apaw.ecp1.composite;
 
-public abstract class CustomerComponent {
+public interface CustomerComponent {
    
-    public abstract void add (CustomerComponent customerComponent);
-    public abstract void remove (CustomerComponent customerComponent);
-    public abstract boolean isComposite ();
-    public abstract String view();
+    public void add (CustomerComponent customerComponent);
+    public void remove (CustomerComponent customerComponent);
+    public boolean isComposite ();
+    public String view();
     
 }

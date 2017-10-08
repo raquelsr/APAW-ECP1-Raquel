@@ -88,6 +88,7 @@ public class CustomerCompositeTest {
     
     @Test
     public void testRemove() {
+        this.leaf.remove(this.leaf);
         this.c1.remove(c11);
     }
 }

@@ -44,7 +44,6 @@ public class CustomerBuilderTest {
     public void testCreateOrder() {
         assertEquals(1, order1.getId());
         assertEquals(new BigDecimal("2"), order1.getAmount());
-        //assertEquals(calendar, order1.getDate());
     }
     
     @Test
